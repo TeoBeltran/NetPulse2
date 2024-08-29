@@ -20,7 +20,7 @@ namespace NetPulse
             }
         }
 
-        SqlConnection con = new SqlConnection("server=.\\SQLEXPRESS;database=UserLogin;integrated security=true");
+        SqlConnection con = new SqlConnection("server=.\\SQLEXPRESS;database=BD_NetPulseLogin;integrated security=true");
         public void logear(string usuario, string contrasena)
         {
             try
